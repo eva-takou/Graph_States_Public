@@ -5,11 +5,17 @@ function Tab=Clifford_Gate(Tab,qubit,Oper)
 %Last modified: Oct 23, 2023
 %--------------------------------------------------------------------------
 %
+%
 %Function to apply Clifford gates on a stabilizer.
 %Input:  Tableau, 
 %        qubit: # index of qubit(s) (if 2 qubit gate, the 1st needs to be the control.)
 %        Oper: str of the name of the operation.
 %Output: The updated Tableau.
+%
+%This script follows the methods developed by Scott Aaronson and Daniel
+%Gottesman, Phys. Rev. A 70, 052328 (2004)
+%
+
 
 n = (size(Tab,1)-1)/2;
 
