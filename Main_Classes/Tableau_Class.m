@@ -1,10 +1,10 @@
 classdef Tableau_Class
-%    
+%--------------------------------------------------------------------------    
 %Created by: Eva Takou
 %
 %Last modified: Oct 23, 2023
 %Class to simulate photonic graph state generation.
-    
+%--------------------------------------------------------------------------    
     properties
         
         Tableau                           %Target Tableau for photonic graph state generation

@@ -1,4 +1,10 @@
 function [Tab,Circuit,graphs]=PA_subroutine(Tab,Circuit,graphs,photon,emitter,emitter_flag_Gate,photon_flag_Gate,Store_Graphs)
+%--------------------------------------------------------------------------    
+%Created by: Eva Takou
+%
+%Last modified: Oct 23, 2023
+%Class to simulate photonic graph state generation.
+%--------------------------------------------------------------------------
 %Subroutine to do photon absorption.
 %Input:  Tab: Tableau
 %        Circuit: The circuit so far
